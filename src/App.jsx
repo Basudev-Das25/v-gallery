@@ -1,11 +1,9 @@
 import React from 'react';
+import GalleryScene from './components/GalleryScene';
 
 function App() {
   return (
-    <div>
-      <h1>Virtual Art Gallery</h1>
-      <p>We'll build our 3D gallery here!</p>
-    </div>
+    <GalleryScene />
   );
 }
 
