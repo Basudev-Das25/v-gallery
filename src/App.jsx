@@ -1,9 +1,12 @@
-import { useState } from 'react';
-import AppRoutes from './routes';
-import css from './index.css';
+import React from 'react';
 
 function App() {
-  return <AppRoutes/>;
+  return (
+    <div>
+      <h1>Virtual Art Gallery</h1>
+      <p>We'll build our 3D gallery here!</p>
+    </div>
+  );
 }
 
-export default App
+export default App;
