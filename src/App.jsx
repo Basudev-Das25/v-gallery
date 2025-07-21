@@ -1,9 +1,10 @@
-import { useState } from 'react';
-import AppRoutes from './routes';
-import css from './index.css';
+import React from 'react';
+import GalleryScene from './components/GalleryScene';
 
 function App() {
-  return <AppRoutes/>;
+  return (
+    <GalleryScene />
+  );
 }
 
-export default App
+export default App;
